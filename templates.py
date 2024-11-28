@@ -19,6 +19,7 @@ list_of_files=[
     "templates/index.html",
     "research/research.ipynb",
     "config/config.yaml",
+    "utils/common.py",
     #files which will in direct main repo: DATA_SCIENCE_PROJECT
     "setup.py",
     "requirements.txt",
