@@ -15,7 +15,7 @@ list_of_files=[
     f"src/{project_name}/config/__init__.py",
     f"src/{project_name}/entity/__init__.py",
     f"src/{project_name}/constants/__init__.py",
-    "github/workflows/.gitkeep",
+    ".github/workflows/.gitkeep",
     "templates/index.html",
     "research/research.ipynb",
     "config/config.yaml",
