@@ -1,4 +1,4 @@
-from src.data_science_project.entity.data_ingestion_entity import *
+from src.data_science_project.entity.config_entity import *
 import urllib.request as request
 from src.data_science_project import Logger
 from src.data_science_project.utils.common import create_dir
@@ -29,7 +29,6 @@ class DataIngestion:
 
 
 
-obj1=DataIngestion(DataIngestionConfig)
 
 
 

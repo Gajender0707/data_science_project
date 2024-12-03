@@ -1,4 +1,4 @@
-from src.data_science_project.entity.data_ingestion_entity import DataIngestionConfig
+from src.data_science_project.entity.config_entity import (DataIngestionConfig,DataValidationConfig)
 from config import *
 from src.data_science_project.utils.common import *
 from src.data_science_project.constants import *
@@ -7,13 +7,14 @@ from src.data_science_project.constants import *
 
 class ConfigurationManager:
 
-    def __init__(self,config_filepath=CONFIG_FILE_PATH):
+    def __init__(self,config_filepath=CONFIG_FILE_PATH,
+                 schema_filepath=SCHEMA_FILE_PATH):
         self.config=read_yaml(config_filepath)
+        self.schema=read_yaml(schema_filepath)
         create_dir([self.config.artifacts_root])
 
     def get_data_ingestion_config(self) -> DataIngestionConfig:
         config=self.config.data_ingestion
-        print(config.root_dir)
         create_dir([config.root_dir])
         
 
@@ -23,7 +24,31 @@ class ConfigurationManager:
             local_data_file=config.local_data_file,
             unzip_dir=config.unzip_dir
         )
-
         return data_ingestion_config
+    
+
+    def get_data_validation_config(self) -> DataValidationConfig:
+        config=self.config.data_validation
+        
+        data_validation_config=DataValidationConfig(
+            root_dir=config.root_dir,
+            unzip_data_file=config.unzip_data_file,
+            STATUS_FILE=config.STATUS_FILE,
+            all_schema=self.schema
+        )
+
+        return data_validation_config
+
+
+        
+        
+    
+
+
+
+    
+
+
+
 
 
