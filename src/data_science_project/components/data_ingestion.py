@@ -19,7 +19,7 @@ class DataIngestion:
 
     def extract_file(self):
         unzip_path=self.config.unzip_dir
-        create_dir(unzip_path)
+        create_dir([unzip_path])
         with zipfile.ZipFile(self.config.local_data_file,"r") as f:
             f.extractall(unzip_path)
 
