@@ -3,7 +3,7 @@ from pathlib import Path
 from src.data_science_project.pipeline.data_ingestion_pipeline import DataIngestionTrainingPipeline
 from src.data_science_project.pipeline.data_validation_pipeline import DataValidationPipeline
 from src.data_science_project.pipeline.data_transformation_pipeline import DataTransformationPipeline
-
+from src.data_science_project.pipeline.model_trainer_pipeline import ModelTrainerPipeline
 STAGE_NAME="Data Ingestion Pipeline"
 
 try:
@@ -43,6 +43,18 @@ except Exception as e:
 
 
 
+
+
+STAGE_NAME="Model Trainer Pipeline"
+
+try:
+    Logger.info(f"<<<<<<<<{STAGE_NAME} has been started>>>>>>>>>>>>>>")
+    model_trainer_pipeline=ModelTrainerPipeline()
+    model_trainer_pipeline.initiate_model_trainer()
+    Logger.info(f"<<<<<<<<<<<<<<<<{STAGE_NAME} has been Completed......>>>>>>>>>>>>>>")
+
+except Exception as e:
+    raise e
 
 
 
