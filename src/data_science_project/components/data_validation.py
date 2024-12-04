@@ -9,8 +9,6 @@ from src.data_science_project.utils.common import create_dir
 class DataValidation:
     def __init__(self,config:DataValidationConfig):
         self.config=config
-        print(self.config)
-        print(self.config.all_schema)
         
 
     def validate_all_columns(self):
@@ -38,9 +36,12 @@ class DataValidation:
         except Exception as e:
             raise e
 
-# config=ConfigurationManager()
-# data_validation_config=config.get_data_validation_config()
-# print(data_validation_config)
-# obj=DataValidation(data_validation_config)
+
+
+# if __name__=="__main__":
+#     # config=ConfigurationManager()
+#     # data_validation_config=config.get_data_validation_config()
+#     # print(data_validation_config)
+#     # obj=DataValidation(data_validation_config)
 
         
