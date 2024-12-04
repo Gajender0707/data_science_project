@@ -10,6 +10,9 @@ This is the End to End Data science project
 5.	components/data_ingestion.py: Implement the data ingestion functionality.
 6.	main.py: Orchestrate the execution of all components.
 
+## Imporant Note:
+Rest of the component like: data_validation, data_transformation, model_trainer and model_evaluation also will follow the same structure and sequence which is followed by the data_ingestion_component.
+
 ### Workflow-ML  (need to follow the sequence...)
 1. Data Ingestion
 2. Data Validation
