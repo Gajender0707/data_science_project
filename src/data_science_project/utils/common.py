@@ -3,6 +3,7 @@ from pathlib import Path
 from ensure import ensure_annotations
 import yaml
 import zipfile
+import json
 # from box import ConfigBox
 # from attrdict import AttrDict
 from dotmap import DotMap
@@ -52,5 +53,12 @@ def load_model(saved_model_filepath:Path):
     loaded_model=load(saved_model_filepath)
     Logger.info("Model has been Loaded Sucessfully..")
     return loaded_model
+
+
+@ensure_annotations
+def save_json(file_path:Path,data:dict):
+    with open(file_path, 'w') as json_file:
+        json.dump(data, json_file, indent=4) 
+        Logger.info(f"Data has been saved to {file_path} Location.")
 
 

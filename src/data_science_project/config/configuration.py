@@ -1,6 +1,7 @@
 from src.data_science_project.entity.config_entity import (DataIngestionConfig,DataValidationConfig,
                                                            DataTransformationConfig,
-                                                           ModelTrainerConfig)
+                                                           ModelTrainerConfig,
+                                                           ModelEvalutionConfig)
 from config import *
 from src.data_science_project.utils.common import *
 from src.data_science_project.constants import *
@@ -82,6 +83,25 @@ class ConfigurationManager:
     
 
 
+    def get_model_evaluation_config(self) -> ModelEvalutionConfig:
+        config=self.config.model_evaluation
+        params=self.params.Elastic_net
+        target_schema=self.schema.TARGET_COLUMN
+        model_evaluation_config=ModelEvalutionConfig(
+            root_dir=config.root_dir,
+            test_data_path=config.test_data_path,
+            model_path=config.model_path,
+            metric_file_path=config.metric_file_path,
+            all_params=params,
+            target_column=target_schema.name,
+            mlflow_tracking_uri=MLFLOW_TRACKING_URI,
+            mlflow_tracking_username=MLFLOW_TRACKING_USERNAME,
+            mlflow_tracking_password=MLFLOW_TRACKING_PASSWORD
+        )
+        return model_evaluation_config
+    
+
+
 
 
 
@@ -90,8 +110,8 @@ class ConfigurationManager:
 
 # if __name__=="__main__":
 #     obj=ConfigurationManager()
-#     model_trainer_details=obj.get_model_trainer_config()
-#     print(model_trainer_details)
+#     model_evalution_details=obj.get_model_evaluation_config()
+#     print(model_evalution_details)
         
         
     
