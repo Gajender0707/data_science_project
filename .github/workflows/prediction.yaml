@@ -1,0 +1,31 @@
+name: model prediction
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  app-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout 
+        uses: actions/checkout@v3
+
+      - name: setup -python
+        uses: actions/setup-python@v3
+        with:
+          python-version: 3.9
+
+      - name: install requirements
+        run: pip install -r requirements.txt
+
+      - name: run the model
+        run : python main.py
+
+      - name: predict the score
+        run: python app.py
+
