@@ -684,3 +684,198 @@
 2024-12-05 13:44:55,270 - INFO -model_evaluation - Model has been Tracked Sucessfully...
 2024-12-05 13:44:58,001 - INFO -model_evaluation_pipeline - Model Evaluation Pipeline Defined Sucessfully....
 2024-12-05 13:44:58,002 - INFO -main - <<<<<<<<<<<<<<<<Model Evaluation Pipeline has been Completed......>>>>>>>>>>>>>>
+2024-12-21 14:12:26,251 - INFO -_internal - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-21 14:12:26,252 - INFO -_internal - [33mPress CTRL+C to quit[0m
+2024-12-21 14:12:26,252 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:12:26,409 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:12:26,415 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:12:33,496 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:12:33] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-12-21 14:12:33,588 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:12:33] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-21 14:12:33,589 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:12:33] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-21 14:12:33,613 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:12:33] "GET /submit?__debugger__=yes&cmd=resource&f=console.png&s=wPpxdFQABa4EF1tcLXjW HTTP/1.1" 200 -
+2024-12-21 14:12:55,854 - INFO -_internal -  * Detected change in '/Users/sanju/Documents/DS/MLOps/data_science_project/app.py', reloading
+2024-12-21 14:12:55,903 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:12:56,157 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:12:56,162 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:13:00,890 - INFO -common - Yaml file has been Read Sucessfully....
+2024-12-21 14:13:00,893 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:13:00] "POST /submit HTTP/1.1" 200 -
+2024-12-21 14:13:26,654 - INFO -_internal -  * Detected change in '/Users/sanju/Documents/DS/MLOps/data_science_project/app.py', reloading
+2024-12-21 14:13:26,709 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:13:27,046 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:13:27,054 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:13:29,887 - INFO -common - Yaml file has been Read Sucessfully....
+2024-12-21 14:13:29,890 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:13:29] "POST /submit HTTP/1.1" 200 -
+2024-12-21 14:14:15,816 - INFO -_internal -  * Detected change in '/Users/sanju/Documents/DS/MLOps/data_science_project/app.py', reloading
+2024-12-21 14:14:15,866 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:14:16,123 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:14:16,128 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:14:23,544 - INFO -common - Yaml file has been Read Sucessfully....
+2024-12-21 14:14:23,547 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:14:23] "POST /submit HTTP/1.1" 200 -
+2024-12-21 14:15:30,284 - INFO -_internal -  * Detected change in '/Users/sanju/Documents/DS/MLOps/data_science_project/app.py', reloading
+2024-12-21 14:15:30,336 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:15:30,613 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:15:30,619 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:15:34,960 - INFO -common - Yaml file has been Read Sucessfully....
+2024-12-21 14:15:34,962 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:15:34] "POST /submit HTTP/1.1" 200 -
+2024-12-21 14:17:13,162 - INFO -_internal -  * Detected change in '/Users/sanju/Documents/DS/MLOps/data_science_project/app.py', reloading
+2024-12-21 14:17:13,214 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:17:13,483 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:17:13,489 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:17:21,595 - INFO -_internal -  * Detected change in '/Users/sanju/Documents/DS/MLOps/data_science_project/app.py', reloading
+2024-12-21 14:17:21,644 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:17:21,807 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:17:21,812 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:17:26,675 - INFO -common - Yaml file has been Read Sucessfully....
+2024-12-21 14:17:26,679 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:17:26] "POST /submit HTTP/1.1" 200 -
+2024-12-21 14:19:54,034 - INFO -_internal -  * Detected change in '/Users/sanju/Documents/DS/MLOps/data_science_project/app.py', reloading
+2024-12-21 14:19:54,109 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:19:54,392 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:19:54,398 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:23:58,862 - INFO -_internal -  * Detected change in '/Users/sanju/Documents/DS/MLOps/data_science_project/app.py', reloading
+2024-12-21 14:23:58,913 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:23:59,201 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:23:59,207 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:24:03,794 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:24:03] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-12-21 14:24:03,810 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:24:03] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-21 14:24:03,811 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:24:03] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-21 14:24:03,816 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:24:03] "GET /submit?__debugger__=yes&cmd=resource&f=console.png&s=Ew78G3JmUdeXKtlWbaPU HTTP/1.1" 200 -
+2024-12-21 14:24:23,727 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:24:23] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-12-21 14:24:23,738 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:24:23] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-21 14:24:23,738 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:24:23] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-21 14:24:23,744 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:24:23] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png&s=Ew78G3JmUdeXKtlWbaPU HTTP/1.1[0m" 304 -
+2024-12-21 14:24:29,233 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:24:29] "GET / HTTP/1.1" 200 -
+2024-12-21 14:24:36,751 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:24:36] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-12-21 14:24:42,989 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:24:42] "[31m[1mGET /submit HTTP/1.1[0m" 405 -
+2024-12-21 14:25:32,365 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:25:32] "[31m[1mGET /submit HTTP/1.1[0m" 405 -
+2024-12-21 14:25:36,477 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:25:36] "GET / HTTP/1.1" 200 -
+2024-12-21 14:25:52,603 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:25:52] "POST /submit HTTP/1.1" 200 -
+2024-12-21 14:30:01,549 - INFO -_internal -  * Detected change in '/Users/sanju/Documents/DS/MLOps/data_science_project/src/data_science_project/pipeline/model_prediction_pipeline.py', reloading
+2024-12-21 14:30:01,601 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:30:01,874 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:30:01,879 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:30:27,216 - INFO -_internal -  * Detected change in '/Users/sanju/Documents/DS/MLOps/data_science_project/src/data_science_project/pipeline/model_prediction_pipeline.py', reloading
+2024-12-21 14:30:27,269 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:30:27,507 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:30:27,512 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:31:35,663 - INFO -_internal -  * Detected change in '/Users/sanju/Documents/DS/MLOps/data_science_project/src/data_science_project/pipeline/model_prediction_pipeline.py', reloading
+2024-12-21 14:31:35,715 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:31:35,968 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:31:35,975 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:31:52,213 - INFO -_internal -  * Detected change in '/Users/sanju/Documents/DS/MLOps/data_science_project/src/data_science_project/pipeline/model_prediction_pipeline.py', reloading
+2024-12-21 14:31:52,252 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:31:52,416 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:31:52,421 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:32:13,726 - INFO -_internal -  * Detected change in '/Users/sanju/Documents/DS/MLOps/data_science_project/src/data_science_project/pipeline/model_prediction_pipeline.py', reloading
+2024-12-21 14:32:13,773 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:32:13,966 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:32:13,972 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:32:18,729 - INFO -common - Yaml file has been Read Sucessfully....
+2024-12-21 14:32:43,392 - INFO -_internal -  * Detected change in '/Users/sanju/Documents/DS/MLOps/data_science_project/src/data_science_project/pipeline/model_prediction_pipeline.py', reloading
+2024-12-21 14:32:43,447 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:32:43,690 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:32:43,695 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:32:45,268 - INFO -common - Yaml file has been Read Sucessfully....
+2024-12-21 14:33:15,129 - INFO -_internal -  * Detected change in '/Users/sanju/Documents/DS/MLOps/data_science_project/src/data_science_project/pipeline/model_prediction_pipeline.py', reloading
+2024-12-21 14:33:15,177 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:33:15,435 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:33:15,441 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:33:17,773 - INFO -common - Yaml file has been Read Sucessfully....
+2024-12-21 14:33:22,511 - INFO -common - Model has been Loaded Sucessfully..
+2024-12-21 14:36:27,335 - INFO -_internal -  * Detected change in '/Users/sanju/Documents/DS/MLOps/data_science_project/src/data_science_project/pipeline/model_prediction_pipeline.py', reloading
+2024-12-21 14:36:27,388 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:36:27,660 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:36:27,669 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:37:04,211 - INFO -_internal -  * Detected change in '/Users/sanju/Documents/DS/MLOps/data_science_project/src/data_science_project/pipeline/model_prediction_pipeline.py', reloading
+2024-12-21 14:37:04,259 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:37:04,490 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:37:04,495 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:38:10,359 - INFO -_internal -  * Detected change in '/Users/sanju/Documents/DS/MLOps/data_science_project/app.py', reloading
+2024-12-21 14:38:10,430 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:38:10,700 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:38:10,705 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:38:15,440 - INFO -common - Yaml file has been Read Sucessfully....
+2024-12-21 14:38:16,317 - INFO -common - Model has been Loaded Sucessfully..
+2024-12-21 14:38:16,324 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:38:16] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-12-21 14:38:16,338 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:38:16] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-21 14:38:16,339 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:38:16] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-21 14:38:16,343 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:38:16] "GET /submit?__debugger__=yes&cmd=resource&f=console.png&s=i0OvRgcvyilWJLl4nFOF HTTP/1.1" 200 -
+2024-12-21 14:38:31,201 - INFO -_internal -  * Detected change in '/Users/sanju/Documents/DS/MLOps/data_science_project/app.py', reloading
+2024-12-21 14:38:31,312 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:38:31,546 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:38:31,551 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:38:35,898 - INFO -common - Yaml file has been Read Sucessfully....
+2024-12-21 14:38:36,509 - INFO -common - Model has been Loaded Sucessfully..
+2024-12-21 14:38:36,515 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:38:36] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-12-21 14:38:36,527 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:38:36] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-21 14:38:36,529 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:38:36] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-21 14:38:36,531 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:38:36] "GET /submit?__debugger__=yes&cmd=resource&f=console.png&s=SCwDtGVk7cjIOZmTK1je HTTP/1.1" 200 -
+2024-12-21 14:38:42,285 - INFO -common - Yaml file has been Read Sucessfully....
+2024-12-21 14:38:42,286 - INFO -common - Model has been Loaded Sucessfully..
+2024-12-21 14:38:42,289 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:38:42] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-12-21 14:38:42,295 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:38:42] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-21 14:38:42,296 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:38:42] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-21 14:38:42,300 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:38:42] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png&s=SCwDtGVk7cjIOZmTK1je HTTP/1.1[0m" 304 -
+2024-12-21 14:38:56,171 - INFO -_internal -  * Detected change in '/Users/sanju/Documents/DS/MLOps/data_science_project/app.py', reloading
+2024-12-21 14:38:56,279 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:38:56,545 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:38:56,551 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:38:59,574 - INFO -common - Yaml file has been Read Sucessfully....
+2024-12-21 14:39:00,206 - INFO -common - Model has been Loaded Sucessfully..
+2024-12-21 14:39:00,208 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:39:00] "POST /submit HTTP/1.1" 200 -
+2024-12-21 14:42:06,540 - INFO -_internal -  * Detected change in '/Users/sanju/Documents/DS/MLOps/data_science_project/app.py', reloading
+2024-12-21 14:42:06,653 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:42:06,952 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:42:06,957 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:42:22,171 - INFO -_internal -  * Detected change in '/Users/sanju/Documents/DS/MLOps/data_science_project/app.py', reloading
+2024-12-21 14:42:22,218 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:42:22,403 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:42:22,408 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:42:28,482 - INFO -common - Yaml file has been Read Sucessfully....
+2024-12-21 14:42:29,332 - INFO -common - Model has been Loaded Sucessfully..
+2024-12-21 14:42:29,338 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:42:29] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-12-21 14:42:29,351 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:42:29] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-21 14:42:29,352 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:42:29] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-21 14:42:29,356 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:42:29] "GET /submit?__debugger__=yes&cmd=resource&f=console.png&s=h8SguE9lNgb1A0NQOWEw HTTP/1.1" 200 -
+2024-12-21 14:43:05,469 - INFO -_internal -  * Detected change in '/Users/sanju/Documents/DS/MLOps/data_science_project/app.py', reloading
+2024-12-21 14:43:05,579 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:43:05,845 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:43:05,851 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:43:10,139 - INFO -common - Yaml file has been Read Sucessfully....
+2024-12-21 14:43:10,764 - INFO -common - Model has been Loaded Sucessfully..
+2024-12-21 14:43:10,765 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:43:10] "POST /submit HTTP/1.1" 200 -
+2024-12-21 14:43:20,156 - INFO -_internal -  * Detected change in '/Users/sanju/Documents/DS/MLOps/data_science_project/app.py', reloading
+2024-12-21 14:43:20,277 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:43:20,504 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:43:20,509 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:43:23,105 - INFO -common - Yaml file has been Read Sucessfully....
+2024-12-21 14:43:23,728 - INFO -common - Model has been Loaded Sucessfully..
+2024-12-21 14:43:23,732 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:43:23] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-12-21 14:43:23,745 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:43:23] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-21 14:43:23,745 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:43:23] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-21 14:43:23,754 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:43:23] "GET /submit?__debugger__=yes&cmd=resource&f=console.png&s=y2dkN8CXagWfyPmpYfVK HTTP/1.1" 200 -
+2024-12-21 14:43:33,844 - INFO -_internal -  * Detected change in '/Users/sanju/Documents/DS/MLOps/data_science_project/app.py', reloading
+2024-12-21 14:43:33,955 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:43:34,199 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:43:34,204 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:43:37,506 - INFO -common - Yaml file has been Read Sucessfully....
+2024-12-21 14:43:37,980 - INFO -common - Model has been Loaded Sucessfully..
+2024-12-21 14:43:37,980 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:43:37] "POST /submit HTTP/1.1" 200 -
+2024-12-21 14:43:45,456 - INFO -_internal -  * Detected change in '/Users/sanju/Documents/DS/MLOps/data_science_project/app.py', reloading
+2024-12-21 14:43:45,564 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:43:45,841 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:43:45,846 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:43:49,172 - INFO -common - Yaml file has been Read Sucessfully....
+2024-12-21 14:43:49,668 - INFO -common - Model has been Loaded Sucessfully..
+2024-12-21 14:43:49,669 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:43:49] "POST /submit HTTP/1.1" 200 -
+2024-12-21 14:43:59,160 - INFO -_internal -  * Detected change in '/Users/sanju/Documents/DS/MLOps/data_science_project/app.py', reloading
+2024-12-21 14:43:59,260 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:43:59,491 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:43:59,496 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:44:02,074 - INFO -common - Yaml file has been Read Sucessfully....
+2024-12-21 14:44:02,594 - INFO -common - Model has been Loaded Sucessfully..
+2024-12-21 14:44:02,594 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:44:02] "POST /submit HTTP/1.1" 200 -
+2024-12-21 14:44:09,788 - INFO -_internal -  * Detected change in '/Users/sanju/Documents/DS/MLOps/data_science_project/app.py', reloading
+2024-12-21 14:44:09,889 - INFO -_internal -  * Restarting with stat
+2024-12-21 14:44:10,096 - WARNING -_internal -  * Debugger is active!
+2024-12-21 14:44:10,101 - INFO -_internal -  * Debugger PIN: 112-139-720

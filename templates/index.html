@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iPhone-Themed ML Input</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: #f0f0f5;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background: #ffffff;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 20px;
+      border: 1px solid #e5e5ea;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: #007aff;
+    }
+
+    .input-group {
+      margin-bottom: 1.5rem;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    input {
+      width: 100%;
+      padding: 0.8rem;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      font-size: 1rem;
+      color: #333;
+    }
+
+    button {
+      width: 100%;
+      padding: 0.8rem;
+      border: none;
+      border-radius: 12px;
+      font-size: 1rem;
+      color: white;
+      background-color: #007aff;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #005ecb;
+    }
+
+    .result {
+      margin-top: 1.5rem;
+      text-align: center;
+      font-size: 1.2rem;
+      color: #007aff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Diabetes Patient  Prediction</h1>
+    <form action="/submit" method="POST">
+
+      <div class="input-group">
+        <label for="fixed acidity">Fixed acidity</label>
+        <input type="number" id="fixed acidity" name="fixed acidity" required />
+      </div>
+      <div class="input-group">
+        <label for="volatile acidity">volatile acidity</label>
+        <input type="number" id="volatile acidity" name="volatile acidity" required />
+      </div>
+      <div class="input-group">
+        <label for="citric acid">Citric  acid</label>
+        <input type="number" id="citric acid" name="citric acid" required />
+      </div>
+
+      <div class="input-group">
+        <label for="residual sugar">residual sugar</label>
+        <input type="number" id="residual sugar" name="residual sugar" required />
+      </div>
+
+      <div class="input-group">
+        <label for="chlorides ">chlorides </label>
+        <input type="number" id="chlorides" name="chlorides" required />
+      </div>
+
+      <div class="input-group">
+        <label for="free sulfur dioxide">free sulfur dioxide</label>
+        <input type="number" id="free sulfur dioxide" name="free sulfur dioxide" required />
+      </div>
+
+      <div class="input-group">
+        <label for="total sulfur dioxide">total sulfur dioxide</label>
+        <input type="number" id="total sulfur dioxide" name="total sulfur dioxide" required />
+      </div>
+
+      <div class="input-group">
+        <label for="density">density</label>
+        <input type="number" id="density" name="density" required />
+      </div>
+
+      <div class="input-group">
+        <label for="pH">pH</label>
+        <input type="number" id="pH" name="pH" required />
+      </div>
+
+      <div class="input-group">
+        <label for="sulphates">sulphates</label>
+        <input type="number" id="sulphates" name="sulphates" required />
+      </div>
+
+      <div class="input-group">
+        <label for="alcohol">alcohol</label>
+        <input type="number" id="alcohol" name="alcohol" required />
+      </div>
+
+
+      <button type="submit">Predict</button>
+    </form>
+    <div class="result" id="result"></div>
+  </div>
+</body>
+</html>
