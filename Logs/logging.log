@@ -879,3 +879,7 @@
 2024-12-21 14:44:09,889 - INFO -_internal -  * Restarting with stat
 2024-12-21 14:44:10,096 - WARNING -_internal -  * Debugger is active!
 2024-12-21 14:44:10,101 - INFO -_internal -  * Debugger PIN: 112-139-720
+2024-12-21 14:56:13,259 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:56:13] "GET / HTTP/1.1" 200 -
+2024-12-21 14:56:35,597 - INFO -common - Yaml file has been Read Sucessfully....
+2024-12-21 14:56:36,581 - INFO -common - Model has been Loaded Sucessfully..
+2024-12-21 14:56:36,583 - INFO -_internal - 127.0.0.1 - - [21/Dec/2024 14:56:36] "POST /submit HTTP/1.1" 200 -
